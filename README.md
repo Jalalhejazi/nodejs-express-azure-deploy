@@ -29,11 +29,11 @@ Navigate to the `/test` folder to review the unit tests for this project. These 
 npm start
 ```
 
-## Deploy the App Service Infrastructure:
+## Deploy the App Service Infrastructure using ARM-Template:
 
 Click the button below to deploy an Azure Web App for Linux. This will create a new app service plan and web app with a dev deployment slot. You can then create build and release pipelines at dev.azure.com to continuously deploy the node application in this repo to the dev deployment slot.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Jalalhejazi/nodejs-express-azure-deploy/master/azuredeploy.json" target="_blank">
+<a href="https://azuredeploy.net/?repository=https://github.com/jalalhejazi/nodejs-express-azure-deploy/tree/master" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 

@@ -9,7 +9,7 @@
     "start": "node app.js"
   },
   "author": "Jalal.Hejazi <Jalal.Hejazi@gmail.com>",
-  "license": "ISC",
+  "license": "Apache License",
   "dependencies": {
     "express": "*",
     "express-handlebars": "3.0.0"
