@@ -12,14 +12,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npx -p semantic-release
-    -p @semantic-release/git
-    -p @semantic-release/npm
-    -p @semantic-release/github
-    semantic-release
-  displayName: 'Semantic release'
-
-- script: |
     npm install
   displayName: 'npm install'
 
