@@ -1,14 +1,14 @@
 {
   "name": "node-express-azure",
   "version": "1.0.3",
-  "description": "",
+  "description": "> Build Your CI/CD Pipeline using Azure DevOps with this Demo App.",
   "main": "app.js",
   "scripts": {
     "build": "npm install",
     "test": "mocha --exit",
     "start": "node app.js"
   },
-  "author": "",
+  "author": "Jalal.Hejazi <Jalal.Hejazi@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "*",
@@ -18,5 +18,17 @@
     "mocha": "5.2.0",
     "chai": "4.2.0",
     "chai-http": "4.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jalalhejazi/nodejs-express-azure-deploy.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Jalalhejazi/nodejs-express-azure-deploy/issues"
+  },
+  "homepage": "https://github.com/Jalalhejazi/nodejs-express-azure-deploy#readme"
 }
