@@ -1,6 +1,6 @@
 {
   "name": "node-express-azure",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> Build Your CI/CD Pipeline using Azure DevOps with this Demo App.",
   "main": "app.js",
   "scripts": {
