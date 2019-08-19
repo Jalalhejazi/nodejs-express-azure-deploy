@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
+const package = require('../package.json');
 
-/* GET home page. */
 router.get('/', (req, res) => {
   res.render('index', {
-    title: 'Welcome to Contoso!',   
+    title: 'Welcome to Contoso!',
+    version: package.version
   });
 });
 

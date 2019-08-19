@@ -1,12 +1,13 @@
 {
   "name": "node-express-azure",
-  "version": "1.0.4",
+  "version": "1.1.1",
   "description": "> Build Your CI/CD Pipeline using Azure DevOps with this Demo App.",
   "main": "app.js",
   "scripts": {
     "build": "npm install",
     "test": "mocha --exit",
-    "start": "node app.js"
+    "start": "node app.js",
+    "deploy": "git add . && git commit -m '.' && npm version patch && git push --follow-tags origin master && npm repo ."
   },
   "author": "Jalal.Hejazi <Jalal.Hejazi@gmail.com>",
   "license": "Apache License",
